@@ -1,0 +1,42 @@
+# Git and Version Control
+.git/
+
+# Binaries and executables
+taskflow
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# SQLite databases and WAL journal files
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Temporary / OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Test artifacts and coverage
+*.out
+*.test
+*.prof
+coverage.txt
+
+# Environment and sensitive files
+.env
+.env.*
+*.local
